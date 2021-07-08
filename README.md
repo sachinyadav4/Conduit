@@ -15,4 +15,6 @@ All these test run in a sequence. I know test cases should be atomic but again d
 4. To run the test open terminal in intellij and run command "mvn clean test".
 5. Test reports can be found under project folder "target\site\serenity" . You can refer to a video recording present at the root of git project where 
 test run is recorded and also reports opened. 
-   
+
+Note: Please make sure everytime you run the test case delete the article created before,
+although with each successful run article created will be deleted but in case you run tests individually please do so. 
